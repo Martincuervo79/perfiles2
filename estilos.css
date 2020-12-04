@@ -1,4 +1,7 @@
+a {
+  text-decoration: none;
 
+}
 
 *
 body
@@ -31,8 +34,9 @@ header {
     left: 0;
     text-decoration: none;
     
-    
+
 }
+
 
 .contenedor {
     width: 98%;
@@ -62,7 +66,7 @@ header .contenedor {
     text-decoration: none;
     color: #fff;
    text-align:center;
-   text-decoration: underline;
+   
    
 }
 
@@ -157,7 +161,10 @@ text-align: center;
     
 }
 
+.nombres {
 
+    color: white;
+}
 
 
 
