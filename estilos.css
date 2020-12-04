@@ -1,0 +1,168 @@
+
+
+*
+body
+{
+    background-image:url(imagenes/fondo.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+
+
+
+
+
+/* estilos header */
+header {
+    width: 100%;
+    height: 50px;
+    background: #0A459D;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    
+    
+}
+
+.contenedor {
+    width: 98%;
+    margin: auto;
+    
+   
+}
+
+h1 {
+    float: left;
+    line-height: 16px;
+}
+
+
+header .contenedor {
+    display: table;
+}
+
+.inicio1 {
+    display: flex;
+    line-height: 16px;
+    right: 0;
+    float: right;
+    
+}
+.inicio1 ul li a {
+    text-decoration: none;
+    color: #fff;
+   text-align:center;
+   text-decoration: underline;
+   
+}
+
+
+.inicio1 ul :hover {
+    
+    color: grey;
+   
+   
+}
+
+.inicio1 li {
+   float: right;
+    display: inline;
+    padding-top: 14px;
+    padding-right: 15px;
+}
+
+
+
+h2 {
+    text-align: center;
+    color: black;
+    
+
+}
+
+.galeria {
+
+    width: 90%;
+    margin: auto;
+    list-style: none;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+
+}
+
+.galeria img {
+    width: 300px;
+    height: 300px;
+}
+
+
+
+.menu {
+position: absolute;
+  top: 3em;
+  left: 0;
+  width: 100%;
+  height: 2em ;
+  background-color:gray;
+text-align: center;
+ padding: 0;
+ 
+ 
+ 
+  
+}
+
+
+.menu  li a{
+    
+    
+    padding: 5px;
+    text-align: center;
+   margin-left: 5%;
+    text-decoration: none ;
+    color: black;
+    margin-left: 35em;
+    outline: 0px 2px solid;
+}
+
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    line-height: 29px;
+    padding: 0;
+    display: flex;
+    text-decoration: underline;
+    
+}
+
+
+.menu ul :hover{
+    color: white;
+    overflow: hidden;
+    
+}
+
+
+
+
+
+footer
+
+{
+
+}
